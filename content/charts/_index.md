@@ -4,7 +4,8 @@ weight: 1
 ---
 
 ## Available Commander Charts
-
+{{< tip >}}
+It's doable to contribute and publish to official chart by pulling request to [https://github.com/alfiankan/commander-charts](https://github.com/alfiankan/commander-charts) using valid chart format. Fell's free {{< /tip >}}
 <table id="charts">
 
     

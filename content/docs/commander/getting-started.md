@@ -15,6 +15,14 @@ Install using script, copy then run on your terminal.
 ```bash
 curl -sfL https://alfiankan.github.io/commander-charts/install.sh | sh -
 ```
+or using Homebrew (brew).
+
+```bash
+brew tap alfiankan/homebrew-tap && brew install commander
+```
+
+
+
 To verify installation run.
 
 ```bash

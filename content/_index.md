@@ -17,6 +17,13 @@ title = "Projects"
 ```bash
 curl -sfL https://alfiankan.github.io/commander-charts/install.sh | sh -
 ```
+
+or using Homebrew (brew).
+
+```bash
+brew tap alfiankan/homebrew-tap && brew install commander
+```
+
 {{< tip "warning" >}}
 Feel free to open a [Pull request](https://github.com/alfiankan/commander/pulls), or contribute to create new chart on [Commander Charts](https://github.com/alfiankan/commander-charts/pulls). {{< /tip >}}
 
@@ -39,7 +46,9 @@ Planned v0.2.0
 
 
 
-{{< button "docs/" "Read the Docs" >}}{{< /column >}}
+{{< button "docs/" "Read the Docs" >}}
+{{< button "charts/" "Charts Table" >}}{{< /column >}}
+
 
 {{< column >}}
 ![diy](/images/scribble.jpg)
