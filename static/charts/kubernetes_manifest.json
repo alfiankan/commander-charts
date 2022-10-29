@@ -1,6 +1,6 @@
 {
-  "kind": "dev_tool_installer",
-  "description": "Installer for dev tool",
+  "kind": "kubernetes_manifest",
+  "description": "Common kubernetes manifest",
   "charts": [
     {
       "usage": "kubernetes manifest secret",
