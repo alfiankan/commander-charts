@@ -16,27 +16,7 @@
     "desc": "ssh commands"
   },
   {
-    "name": "go",
-    "desc": "golang cli"
-  },
-  {
-    "name": "text_processing",
-    "desc": "shell text processing"
-  },
-  {
-    "name": "lang_installer",
-    "desc": "programming language installer"
-  },
-  {
     "name": "kubernetes_manifest",
-    "desc": "kubernetes manifest snippet"
-  },
-  {
-    "name": "sysadmin",
-    "desc": "sysadmin commands"
-  },
-  {
-    "name": "dev_tool_installer",
-    "desc": "install variety dev tool"
+    "desc": "kubernetes manifest snippets"
   }
 ]
