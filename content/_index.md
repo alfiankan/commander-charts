@@ -59,16 +59,20 @@ document.addEventListener('DOMContentLoaded',function(event){
 });
 </script>
 
-> Install now preview available for Linux (arm64, amd64) and MacOS (arm64, amd64) by running the script below
-```bash
-curl -sfL https://alfiankan.github.io/commander-charts/install.sh | sh -
-```
+> v0.1.0 Available for Linux (arm64, amd64) and MacOS (arm64, amd64) by running script below.
 
-or using Homebrew (brew).
+using Homebrew (brew).
 
 ```bash
 brew tap alfiankan/homebrew-tap && brew install commander
 ```
+or using shell script.
+
+```bash
+curl -sfL https://alfiankan.github.io/commander-charts/install.sh | sh -
+```
+
+
 
 {{< tip "warning" >}}
 Feel free to open a [Pull request](https://github.com/alfiankan/commander/pulls), or contribute to create new chart on [Commander Charts](https://github.com/alfiankan/commander-charts/pulls). {{< /tip >}}
