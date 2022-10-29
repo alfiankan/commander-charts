@@ -9,30 +9,6 @@
       "prompt": []
     },
     {
-      "usage": "redis cluster",
-      "cmdt": "curl -sSL https://raw.githubusercontent.com/bitnami/containers/main/bitnami/redis/docker-compose.yml > docker-compose.yml",
-      "type": "snippet",
-      "prompt": []
-    },
-    {
-      "usage": "redis cluster",
-      "cmdt": "curl -sSL https://raw.githubusercontent.com/bitnami/containers/main/bitnami/redis/docker-compose.yml > docker-compose.yml",
-      "type": "snippet",
-      "prompt": []
-    },
-    {
-      "usage": "redis cluster",
-      "cmdt": "curl -sSL https://raw.githubusercontent.com/bitnami/containers/main/bitnami/redis/docker-compose.yml > docker-compose.yml",
-      "type": "snippet",
-      "prompt": []
-    },
-    {
-      "usage": "redis cluster",
-      "cmdt": "curl -sSL https://raw.githubusercontent.com/bitnami/containers/main/bitnami/redis/docker-compose.yml > docker-compose.yml",
-      "type": "snippet",
-      "prompt": []
-    },
-    {
       "usage": "kubectl on docker",
       "cmdt": "docker run --name kubectl bitnami/kubectl:latest",
       "type": "snippet",
