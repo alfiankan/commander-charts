@@ -1,0 +1,88 @@
+{
+  "kind": "kubectl",
+  "description": "kubectl fro kubernetes",
+  "charts": [
+    {
+      "usage": "set kubeconfig",
+      "cmdt": "KUBECONFIG={{file_path}}",
+      "type": "cmd",
+      "prompt": [
+        {
+          "tmplt": "file_path",
+          "label": "kubeconfig .yaml file path",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "usage": "set current kubectl namespace context",
+      "cmdt": "kubectl config set-context --current --namespace={{namespace}}",
+      "type": "cmd",
+      "prompt": [
+        {
+          "tmplt": "namespace",
+          "label": "namespace",
+          "default": "default"
+        }
+      ]
+    },
+    {
+      "usage": "kubectl create kubernetes job",
+      "cmdt": "kubectl create job hello --image={{image}} {{override}} ",
+      "type": "cmd",
+      "prompt": [
+        {
+          "tmplt": "image",
+          "label": "image:tag",
+          "default": "busybox:1.28"
+        },
+        {
+          "tmplt": "override",
+          "label": "add shell or other args or flag",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "usage": "List Kubernetes PersistentVolumes sorted by capacity",
+      "cmdt": "kubectl get pv --sort-by=.spec.capacity.storage -n {{namespace}}",
+      "type": "cmd",
+      "prompt": [
+        {
+          "tmplt": "namespace",
+          "label": "namespace",
+          "default": "default"
+        }
+      ]
+    },
+    {
+      "usage": "kubectl kubernetes show secret by namespace",
+      "cmdt": "kubectl get secret -n {{namespace}}",
+      "type": "cmd",
+      "prompt": [
+        {
+          "tmplt": "namespace",
+          "label": "namespace",
+          "default": "default"
+        }
+      ]
+    },
+    {
+      "usage": "kubernetes kubectl rollback deployment",
+      "cmdt": "kubectl rollout undo deployment.apps/{{deployment_name}} -n {{namespace}} ",
+      "type": "cmd",
+      "prompt": [
+        {
+          "tmplt": "deployment_name",
+          "label": "deployment name",
+          "default": ""
+        },
+        {
+          "tmplt": "namespace",
+          "label": "namespace",
+          "default": "default"
+        }
+      ]
+    }
+  ]
+}

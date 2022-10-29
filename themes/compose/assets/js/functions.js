@@ -174,7 +174,7 @@ function parseBoolean(string = "") {
 }
 
 function loadSvg(file, parent, path = iconsPath) {
-  const link = new URL(`${path}${file}.svg`, rootURL).href;
+  const link = new URL(`commander-charts/${path}${file}.svg`, rootURL).href;
   fetch(link)
   .then((response) => {
     return response.text();

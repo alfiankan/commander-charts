@@ -1,0 +1,42 @@
+{
+  "kind": "bitnami_docker",
+  "description": "docker compose from bitnami",
+  "charts": [
+    {
+      "usage": "redis cluster",
+      "cmdt": "curl -sSL https://raw.githubusercontent.com/bitnami/containers/main/bitnami/redis/docker-compose.yml > docker-compose.yml",
+      "type": "snippet",
+      "prompt": []
+    },
+    {
+      "usage": "kubectl on docker",
+      "cmdt": "docker run --name kubectl bitnami/kubectl:latest",
+      "type": "snippet",
+      "prompt": []
+    },
+    {
+      "usage": "drupal nginx docker",
+      "cmdt": "curl -sSL https://raw.githubusercontent.com/bitnami/containers/main/bitnami/drupal-nginx/docker-compose.yml > docker-compose.yml",
+      "type": "snippet",
+      "prompt": []
+    },
+    {
+      "usage": "postgree docker",
+      "cmdt": "curl -sSL https://raw.githubusercontent.com/bitnami/containers/main/bitnami/postgresql/docker-compose.yml > docker-compose.yml",
+      "type": "snippet",
+      "prompt": []
+    },
+    {
+      "usage": "minio on docker",
+      "cmdt": "curl -sSL https://raw.githubusercontent.com/bitnami/containers/main/bitnami/minio/docker-compose.yml > docker-compose.yml",
+      "type": "snippet",
+      "prompt": []
+    },
+    {
+      "usage": "mongodb sharded on docker",
+      "cmdt": "curl -sSL https://raw.githubusercontent.com/bitnami/containers/main/bitnami/mongodb-sharded/docker-compose.yml > docker-compose.yml",
+      "type": "snippet",
+      "prompt": []
+    }
+  ]
+}
