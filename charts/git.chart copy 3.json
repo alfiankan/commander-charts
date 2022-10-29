@@ -1,5 +1,5 @@
 {
-  "kind": "alfiankanchart",
+  "kind": "git",
   "description": "commander for Git",
   "charts": [
     {

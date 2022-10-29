@@ -9,36 +9,18 @@ Chart is file unit containing sets of terminal command templates or code snippet
 
 ```json
 {
-  "kind": "git",
-  "description": "commander for Git",
-  "charts": [
+  "kind": "git", // chart group name alphabet [A-Z] [a-z] with no space (yocan use underscore _ )
+  "description": "commander for Git", // chart group description
+  "charts": [ // collection of charts
     {
-      "usage": "git show log and statistic",
-      "cmdt": "git log --stat",
+      "usage": "load test apache benchmark", // chart usage
+      "cmdt": "ab -n {{total_req}} -c {{total_concurrent}} {{target_url}}", // command or snippet template, use {{template}} to define template replacable by prompt
       "type": "cmd",
-      "prompt": []
-    },
-    {
-      "usage": "print env var",
-      "cmdt": "echo ${{env_name}}",
-      "type": "cmd",
-      "prompt": [
+      "prompt": [ // promp definition to replace cmdt template
         {
-          "tmplt": "env_name",
-          "label": "ENV Namen",
-          "default": "HOME"
-        }
-      ]
-    },
-    {
-      "usage": "load test apache benchmark",
-      "cmdt": "ab -n {{total_req}} -c {{total_concurrent}} {{target_url}} ",
-      "type": "cmd",
-      "prompt": [
-        {
-          "tmplt": "total_req",
-          "label": "total request",
-          "default": "10"
+          "tmplt": "total_req", // template associated with cmdt without double curly bracket 
+          "label": "total request", // prompter label or intructions
+          "default": "10" // prompter default value 
         },
         {
           "tmplt": "total_concurrent",
@@ -50,7 +32,7 @@ Chart is file unit containing sets of terminal command templates or code snippet
           "label": "url load test target",
           "default": "https://github.com/"
         }
-      ]
+      ] 
     },
     {
       "usage": "unarchive tar file eg. .tar.gz",
