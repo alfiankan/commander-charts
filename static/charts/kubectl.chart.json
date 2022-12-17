@@ -83,6 +83,40 @@
           "default": "default"
         }
       ]
+    },
+    {
+      "usage": "kubernetes kubectl get rolling history",
+      "cmdt": "kubectl rollout history deployment/{{deployment_name}} ",
+      "type": "cmd",
+      "prompt": [
+        {
+          "tmplt": "deployment_name",
+          "label": "deployment name",
+          "default": ""
+        }
+      ]
+    },
+      {
+      "usage": "kubernetes kubectl update rolling image",
+      "cmdt": "kubectl set image deployment/{{deployment_name}} {{container_name}}={{image}}",
+      "type": "cmd",
+      "prompt": [
+        {
+          "tmplt": "deployment_name",
+          "label": "deployment name",
+          "default": ""
+        },
+        {
+          "tmplt": "container_name",
+          "label": "container name",
+          "default": ""
+        },
+        {
+          "tmplt": "image",
+          "label": "image",
+          "default": ""
+        }
+      ]
     }
   ]
 }
