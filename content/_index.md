@@ -69,7 +69,7 @@ brew tap alfiankan/homebrew-tap && brew install commander
 or using shell script.
 
 ```bash
-curl -sfL https://alfiankan.github.io/commander-charts/install.sh | sh -
+curl -sfL https://alfiankan.github.io/commander-charts/install.sh | sudo sh -
 ```
 
 
