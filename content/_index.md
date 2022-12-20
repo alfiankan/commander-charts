@@ -88,7 +88,7 @@ v0.1.0
 {{< /tip >}}
 
 {{< tip >}}
-Planned v0.2.1
+v0.2.1
 
 - commander codex powered by openai codex
 
