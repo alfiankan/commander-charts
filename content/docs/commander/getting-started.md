@@ -74,4 +74,15 @@ If you want to add or edit your own chart use `cmdr mychart -e <editor_choice>` 
 ![base usage](/images/cmdr-create-chart.gif)
 
 
+## Commander Codex
+Commander codex bringing openai codex to your terminal, say good bay to context switching, ask right away on your terminal.
+Before you can use commander codex you need to set openai token, if you dont have any yet please visit https://beta.openai.com/account/api-keys.
+
+
+you can set openai token on your env, but is very recommended if you put the token in your bashprofile like  `.zshrc` using key value `OPENAI_API_KEY=myopenaitoken`
+
+Commander codex is very easy to use just run `cmdr codex <your prompt>` for the example  `cmdr codex install zsh plugin auto suggestion`
+
+
+
 
