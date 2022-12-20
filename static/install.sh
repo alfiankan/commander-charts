@@ -1,5 +1,5 @@
 #!/bin/bash
-version="v0.1.0";
+version="v0.2.1";
 os=$(uname);
 if [ "$os" = "Darwin" ]; then
     os="darwin"
