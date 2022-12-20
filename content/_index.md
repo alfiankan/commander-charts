@@ -7,9 +7,9 @@ columnTitles = ["Section", "Status", "Author"]
 title = "Projects"
 
 +++
+
 {{< block "grid-2" >}}
 {{< column >}}
-
 
 <h1 style="background-color:green;max-width: fit-content;padding:2px;padding-right:10px; padding-left:10px;" id="anima"></h1>
 <h1>command and snippet with <b>Ease</b></h1>
@@ -66,19 +66,19 @@ using Homebrew (brew).
 ```bash
 brew tap alfiankan/homebrew-tap && brew install commander
 ```
+
 or using shell script.
 
 ```bash
 curl -sfL https://alfiankan.github.io/commander-charts/install.sh | sudo sh -
 ```
 
-
-
 {{< tip "warning" >}}
 Feel free to open a [Pull request](https://github.com/alfiankan/commander/pulls), or contribute to create new chart on [Commander Charts](https://github.com/alfiankan/commander-charts/pulls). {{< /tip >}}
 
 {{< tip >}}
 v0.1.0
+
 - charts explorer, find, prompt and execute command
 - charts manager, download charts from online main charts repository
 - charts manager, override repo using self hosted charts repository
@@ -89,17 +89,20 @@ v0.1.0
 
 {{< tip >}}
 Planned v0.2.1
+
 - commander codex powered by openai codex
 
 {{< /tip >}}
 
-
-
 {{< button "docs/" "Read the Docs" >}}
 {{< button "charts/" "Charts Table" >}}{{< /column >}}
 
-
 {{< column >}}
-![diy](/images/cmdr-ads.gif)
+
+<video controls autoplay>
+  <source src="/images/Commander.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 {{< /column >}}
 {{< /block >}}
