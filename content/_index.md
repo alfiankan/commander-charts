@@ -99,7 +99,7 @@ Planned v0.2.1
 
 {{< column >}}
 
-<video controls autoplay>
+<video controls autoplay loop style="width: 100%;">
   <source src="/images/Commander.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
