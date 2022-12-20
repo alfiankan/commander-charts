@@ -87,10 +87,9 @@ v0.1.0
 
 {{< /tip >}}
 
-{{< tip "warning" >}}
-Planned v0.2.0
-- prompter, terminal like path autocomplete
-- prompter, multi choice prompter
+{{< tip >}}
+Planned v0.2.1
+- commander codex powered by openai codex
 
 {{< /tip >}}
 
