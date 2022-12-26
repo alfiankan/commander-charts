@@ -1,0 +1,116 @@
+{
+    "kind": "crypto",
+    "description": "command common usages for cryptography",
+    "charts": [
+      {
+        "usage": "generate a GPG key pair",
+        "cmdt": "gpg --full-generate-key",
+        "type": "cmd",
+        "prompt": []
+      },
+      {
+        "usage": "list GPG keys",
+        "cmdt": "gpg --list-keys",
+        "type": "cmd",
+        "prompt": []
+      },
+      {
+        "usage": "export a GPG public key",
+        "cmdt": "gpg --output {{filename}} --armor --export {{email}}",
+        "type": "cmd",
+        "prompt": [
+            {
+              "tmplt": "filename",
+              "label": "filename",
+              "default": ""
+            },
+            {
+              "tmplt": "email",
+              "label": "your email when generating the key",
+              "default": ""
+            }
+        ]
+      },
+      {
+        "usage": "export a GPG private key",
+        "cmdt": "gpg --output {{filename}} --armor --export-secret-keys {{email}}",
+        "type": "cmd",
+        "prompt": [
+            {
+              "tmplt": "filename",
+              "label": "filename",
+              "default": ""
+            },
+            {
+              "tmplt": "email",
+              "label": "your email when generating the key",
+              "default": ""
+            }
+        ]
+      },
+      {
+        "usage": "import a GPG public key",
+        "cmdt": "gpg --import {{filename}}",
+        "type": "cmd",
+        "prompt": [
+            {
+              "tmplt": "filename",
+              "label": "filename",
+              "default": ""
+            }
+        ]
+      },
+      {
+        "usage": "import a GPG private key",
+        "cmdt": "gpg --allow-secret-key-import --import {{filename}}",
+        "type": "cmd",
+        "prompt": [
+            {
+              "tmplt": "filename",
+              "label": "filename",
+              "default": ""
+            }
+        ]
+      },
+      {
+        "usage": "encrypt a file",
+        "cmdt": "gpg --output {{destination_filename}} --encrypt --recipient {{email}} {{source_filename}}",
+        "type": "cmd",
+        "prompt": [
+            {
+              "tmplt": "destination_filename",
+              "label": "filename for the encrypted file",
+              "default": ""
+            },
+            {
+              "tmplt": "email",
+              "label": "your email when generating the key",
+              "default": ""
+            },
+            {
+              "tmplt": "source_filename",
+              "label": "filename that you want to encrypt",
+              "default": ""
+            }
+        ]
+      },
+      {
+        "usage": "decrypt a file",
+        "cmdt": "gpg --output {{destination_filename}} --decrypt {{source_filename}}",
+        "type": "cmd",
+        "prompt": [
+            {
+              "tmplt": "destination_filename",
+              "label": "filename for the decrypted file",
+              "default": ""
+            },
+            {
+              "tmplt": "source_filename",
+              "label": "filename that you want to decrypt",
+              "default": ""
+            }
+        ]
+      }
+    ]
+  }
+  
