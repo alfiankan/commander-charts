@@ -26,8 +26,8 @@ const codeActionButtons = [
 ];
 
 const body = elem('body');
-const maxLines = codeBlockConfig.maximum;
-const showLines = codeBlockConfig.show;
+const maxLines = 1000;
+const showLines = true;
 const copyId = 'panel_copy';
 const wrapId = 'panel_wrap';
 const linesId = 'panel_lines';

@@ -80,6 +80,5 @@ You can create own chart or use official published charts from `https://alfianka
 
 {{< tip >}}
 
-It's doable to contribute and publish to official chart by pulling request to `https://github.com/alfiankan/commander-charts` using valid chart format. `click to read intructions`.
-{{< /tip >}}
+It's doable to contribute and publish to official chart by pulling request to [https://github.com/alfiankan/commander-charts](https://github.com/alfiankan/commander-charts) using valid chart format. {{< /tip >}}
 

@@ -29,7 +29,7 @@ codeLineNumbers = false
   name = "GitHub"
   iconLight = "images/GitHubMarkLight.svg"
   iconDark = "images/GitHubMarkDark.svg"
-  url = "https://github.com/onweru/compose/"
+  url = "https://github.com/alfiankan/commander"
 
 # optional
 # attribution. Feel free to delete this
