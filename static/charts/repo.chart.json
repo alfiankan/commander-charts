@@ -18,5 +18,9 @@
   {
     "name": "kubernetes_manifest",
     "desc": "kubernetes manifest snippets"
+  },
+  {
+    "name": "crypto",
+    "desc": "cryptographic related command"
   }
 ]
